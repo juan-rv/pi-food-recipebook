@@ -1,0 +1,16 @@
+.container_navBar_Landing {
+    background-color: rgb(117 125 116 / 32%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height: 60px;
+    position: relative;
+}
+
+@media screen and (max-width: 767px) {
+
+    .container_navBar_Landing h2 {
+        font-size: 16px;
+    }
+}

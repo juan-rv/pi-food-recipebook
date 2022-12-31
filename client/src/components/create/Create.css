@@ -1,0 +1,403 @@
+
+.content_create {
+  background-image: linear-gradient(rgba(30, 33, 43, 0.75), rgba(60, 63, 73, 0.75)), url(../../assets/create_recipe.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  height: auto;
+}
+
+.nav_create {
+    max-width: 100%;
+    background: rgba(117, 125, 116, 0.247);
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_home {
+    font-size: 26px;
+    color: black;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    margin-right: 100px;
+
+}
+
+.button_home:hover {
+    text-shadow: 0 0 10px rgba(117, 125, 116, 0.719);
+    font-size: 28px;
+    transition: text-shadow 0.5s ease-out;
+}
+
+.title_create {
+    font-size: 55px;
+    font-weight: bold;
+    color: rgba(13, 15, 14, 0.925);
+    margin-right: 50px;   
+}
+
+.great_form {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.content_form {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.title_score {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.plate_create h6{
+    margin: 0;
+    font-size: 15px;
+    color: rgb(125, 133, 128);
+    background-color: rgba(80, 80, 90, 0.541);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.score_create h6{
+    margin: 0;
+    font-size: 15px;
+    color: rgb(125, 133, 128);
+    background-color: rgba(80, 80, 90, 0.541);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+
+
+.content_form input,
+.content_form textarea
+{
+    width: 80%;
+    padding: 15px;
+    font-size: 15px;
+    margin-top: 10px;
+    border: none;
+    background: rgba(40, 40, 41, 0.75);
+    outline: 0;
+    color: rgb(125, 133, 128);
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+
+.diets_create {
+    margin-top: 20px;
+}
+.diets_create span {
+    background: rgba(48, 48, 51, 0.75);
+    color: rgb(125, 133, 128);
+    padding: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    
+}
+
+.diets_create select {
+    background: rgba(48, 48, 51, 0.75);
+    border: none;
+    padding: 6px;
+    color: rgb(125, 133, 128);
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.diets_create ul {
+    background-color: rgba(48, 48, 51, 0.75);
+    list-style: none;
+    padding: 0;
+    height: 25.5px;
+    width: 205px;
+    display: grid ;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    margin-top: 22px;
+ 
+}
+
+
+
+.diets_create li {
+    padding: 3px;
+    color:rgb(125, 133, 128);
+    
+}
+
+.diets_create button {
+    background-color: rgba(48, 48, 51, 0.75);
+    color: rgb(125, 133, 128);
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;   
+}
+
+.diets_create button:hover {
+    background-color: rgba(115, 115, 122, 0.75);
+    color: rgb(50, 51, 50);
+    
+}
+
+
+.button_create {
+    padding: 0.5px;
+    color: rgb(125, 133, 128);
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    background:rgba(48, 48, 51, 0.75);
+    border:0;
+    text-transform: uppercase;
+    padding: 0.7em;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+.button_create:hover {
+  background-color: rgba(60, 63, 73, 0.75);
+    box-shadow: 0 0 15px 0 rgb(122, 123, 129);
+    color: rgb(184, 202, 191);
+}
+
+.card_create {
+    background-color: rgba(128, 128, 128, 0.425);
+    color: rgb(46, 48, 47);
+    width: 340px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-content: center;
+    place-items: center;
+    border-radius: 12px;
+    margin-top: 50px;
+}
+
+.card_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.img_contain {
+    height: 204px;
+}
+
+.card_title {
+    font-size:15px;
+    font-weight:500;
+    text-align: center;
+    margin: 0;
+}
+.card_img {
+    width: 100%;
+    height: 170px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 0.4em;
+    transition: 0.3s ease;
+}
+
+.score_card {
+    background-color: rgba(214, 214, 214, 0.89);
+    height: 50px;
+    width: 90px;
+    color: black;
+    font-weight: 700;
+    font-size: 10px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 10px;
+    transform: translate(0px , -73px );
+}
+
+.die {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.die p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: .6rem;
+    margin-bottom: 15px;
+}
+
+.alert_inicio {
+    margin-top:100px;
+}
+
+@media screen and (max-width: 767px) { 
+    .title_create {
+    font-size: 30px; 
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+.button_home {
+    margin: 0;
+    font-size: 15px;
+}
+
+.great_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content_form {
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.title_score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.plate_create h6{
+    font-size: 10px;
+    padding: 3px;
+}
+
+.score_create h6{
+    font-size: 10px;
+    padding: 3px;
+}
+
+.content_form input,
+.content_form textarea
+{
+    width: 140px;
+    padding: 8px;
+    font-size: 10px;
+}
+
+.button_create {
+    font-size: 12px;
+}
+
+.diets_create {
+    margin-top: 10px;
+}
+.diets_create span {
+    padding: 4px;
+    font-size: 10px;
+
+}
+
+.diets_create select {
+    font-size: 10px;
+    width: 90px;
+}
+
+.diets_create ul {
+    height: 20px;
+    font-size: 12px;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+}
+
+.diets_create li {
+    padding: 3px;
+    color:rgb(125, 133, 128);
+    
+}
+
+.diets_create button {
+    font-size: 12px;
+    width: 90px;
+    height: 12px;
+}
+
+.card_create {
+    width: 250px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+
+
+
+.card_title {
+    font-size:12px;
+}
+
+.img_contain {
+    height: 160px;
+}
+.card_img {
+    width: 90%;
+    height: 150px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 0.4em;
+    transition: 0.3s ease;
+}
+
+.score_card {
+    transform: translate(12px , -74px );
+}
+
+.die p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: .6rem;
+    margin-bottom: 15px;
+} 
+
+}
+
+@media screen and (min-width: 767px) and (max-width:1023px) {
+    
+    .great_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card_create {
+    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}

@@ -1,0 +1,40 @@
+.profile_contain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile_contain img {
+    border-radius: 50px;
+    width: 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+
+}
+
+.profile_contain h3 {
+    color: rgb(3, 17, 3);
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.profile_contain h3:hover {
+    text-shadow: 0 0 10px rgba(117, 125, 116, 0.719);
+    font-size: 24px;
+    transition: text-shadow 0.5s ease-out;
+}
+
+@media screen and (max-width: 767px) { 
+   
+    .profile_contain {
+        height: 50px;
+        width: 100%;
+        margin-right: 15px;
+    }
+
+    .profile_contain h3 {
+        font-size:16px;
+    }
+
+
+}

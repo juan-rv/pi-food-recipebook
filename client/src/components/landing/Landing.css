@@ -1,0 +1,67 @@
+.fondo_landing {
+  background: linear-gradient(rgba(30, 33, 43, 0.75), rgba(60, 63, 73, 0.75)), url(../../assets/fondo_landing.jpg) ; 
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.title_contain {
+  background-color: rgba(177, 175, 175, 0.137);
+  margin-top: 30px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+.title_landing{
+  font-size: 60px;
+}
+
+.subtitle_contain {
+  background-color: rgba(110, 110, 110, 0.247);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.subtitle_landing {
+  font-size: 25px;
+}
+
+
+.button_landing {
+  margin: 15px;
+  font-size: 40px;
+  background-color: rgba(110, 110, 110, 0.247);
+  border-color: rgba(110, 110, 110, 0.897) ;
+  padding: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button_landing:hover {
+  background-color: rgba(177, 175, 175, 0.137);
+  border-color: rgba(177, 175, 175, 0.822);
+}
+
+@media screen and (max-width: 767px) {
+
+  .title_landing {
+    font-size: 30px;
+  }
+}
+
+
